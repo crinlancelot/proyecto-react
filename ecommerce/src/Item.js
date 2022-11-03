@@ -1,20 +1,18 @@
 import './App.css';
 import { NavBar } from './components/NavBar';
-import { Contenedor } from './components/Container';
-import { ItemListContainer } from './components/ItemListContainer';
+import { ItemDetailContainer } from './components/ItemDetailContainer';
 import { Footer } from './components/Footer';
 
-function App() {
+function Item() {
   return (
     <div className="App">
       <header className="masthead text-center">
         <NavBar/>
       </header>
-      <Contenedor greeting="Bienvenidos a Cool Gaming"/>
-      <ItemListContainer/>
+      <ItemDetailContainer/>
       <Footer/>
     </div>
   );
 }
 
-export default App;
+export default Item;
